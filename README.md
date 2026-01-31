@@ -1,30 +1,35 @@
-<h3 align="center">Sobre mim</h3>
+<h2 align="center">Sobre</h2>
 
 ###
 
-<p align="center">💻 Desenvolvedor JavaScript | TypeScript<br>Atualmente estudando React e Node JS para aprimorar habilidades em desenvolvimento web.<br> Focado em criar projetos práticos, simples e escaláveis, sempre aprendendo e evoluindo.</p>
+<p align="center">Olá, eu sou o Flávio Paixão<br><br>Sou estudante de Engenharia de Software com foco em desenvolvimento web backend, utilizando Python e Django. Tenho experiência prática na criação de aplicações web completas, seguindo boas práticas de arquitetura MVT, integração com bancos de dados relacionais e desenvolvimento de interfaces responsivas.<br><br>Atualmente, desenvolvo projetos full-stack com Django, PostgreSQL/SQLite, HTML, CSS, JavaScript e Bootstrap, sempre buscando código organizado, escalável e de fácil manutenção. Também possuo boa vivência com terminal, ambientes virtuais (venv) e resolução de problemas em ambiente de desenvolvimento.<br><br>📌 Objetivo: Estágio em Engenharia de Software / Desenvolvimento Web<br>🔗 LinkedIn: linkedin.com/in/flaviopx</p>
 
 ###
 
-<h3 align="center">Tecnologias</h3>
+<h2 align="center">Tecnologias</h2>
 
 ###
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img src="https://skillicons.dev/icons?i=django" height="40" alt="django logo"  />
 </div>
 
 ###
 
+<h2 align="center">Social media</h2>
+
+###
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Flavio-Paixao&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Flavio-Paixao&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <a href="https://www.linkedin.com/in/flaviopx/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
 </div>
 
 ###
