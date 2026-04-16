@@ -1,35 +1,34 @@
-<h2 align="center">Sobre</h2>
+# Olá, eu sou o Flávio Paixão 👋
 
-###
+Sou estudante de Engenharia de Software com foco em **desenvolvimento backend com Python** e **infraestrutura em nuvem AWS**. Tenho experiência prática na criação de aplicações web completas e deploy de projetos reais na AWS, seguindo boas práticas de arquitetura e desenvolvimento escalável.
 
-<p align="center">Olá, eu sou o Flávio Paixão<br><br>Sou estudante de Engenharia de Software com foco em desenvolvimento web backend, utilizando Python e Django. Tenho experiência prática na criação de aplicações web completas, seguindo boas práticas de arquitetura MVT, integração com bancos de dados relacionais e desenvolvimento de interfaces responsivas.<br><br>Atualmente, desenvolvo projetos full-stack com Django, PostgreSQL/SQLite, HTML, CSS, JavaScript e Bootstrap, sempre buscando código organizado, escalável e de fácil manutenção. Também possuo boa vivência com terminal, ambientes virtuais (venv) e resolução de problemas em ambiente de desenvolvimento.<br><br>📌 Objetivo: Estágio em Engenharia de Software / Desenvolvimento Web<br>🔗 LinkedIn: linkedin.com/in/flaviopx</p>
+Atualmente desenvolvo projetos com Django, PostgreSQL, e serviços AWS como S3 e CloudFront, sempre buscando código organizado e de fácil manutenção.
 
-###
+🎯 **Objetivo:** Desenvolvedor Backend Python | AWS Cloud  
+🔗 **LinkedIn:** [linkedin.com/in/flaviopx](https://www.linkedin.com/in/flaviopx)  
+☁️ **Portfólio AWS:** [ver projeto ao vivo](https://projeto-aws-681892816208-sa-east-1-an.s3.sa-east-1.amazonaws.com/index.html)
 
-<h2 align="center">Tecnologias</h2>
+---
 
-###
+## ☁️ AWS
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=django" height="40" alt="django logo"  />
-</div>
+![AWS S3](https://img.shields.io/badge/Amazon_S3-Storage-orange?style=flat&logo=amazons3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-CDN-orange?style=flat&logo=amazonaws&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-Security-orange?style=flat&logo=amazonaws&logoColor=white)
 
-###
+## 🛠️ Tecnologias
 
-<h2 align="center">Social media</h2>
+![Python](https://skillicons.dev/icons?i=py)
+![Django](https://skillicons.dev/icons?i=django)
+![PostgreSQL](https://skillicons.dev/icons?i=postgresql)
+![SQLite](https://skillicons.dev/icons?i=sqlite)
+![Git](https://skillicons.dev/icons?i=git)
+![Linux](https://skillicons.dev/icons?i=linux)
 
-###
+---
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/flaviopx/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-</div>
+## 🌐 Social
 
-###
+[![LinkedIn](https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg)](https://www.linkedin.com/in/flaviopx/)
+[![GitHub](https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/github/default.svg)](https://github.com/Flavio-Paixao)
+
