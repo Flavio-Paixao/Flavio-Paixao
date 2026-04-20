@@ -1,4 +1,4 @@
-# Olá, eu sou o Flávio Paixão 👨🏾‍💻
+# Olá, eu sou o Flávio Paixão 
 
 Sou desenvolvedor backend com foco em **Python, Django, AWS e Infraestrutura como Código com Terraform**. Tenho quatro projetos reais em produção na nuvem, cobrindo diferentes arquiteturas cloud.
 
