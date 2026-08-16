@@ -1,4 +1,4 @@
-# Hi there, I'm Flávio Paixão 👋
+# Olá, eu sou o Flávio Paixão 👋
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
@@ -11,7 +11,7 @@
 
 ## 👨‍💻 Sobre Mim
 
-Sou **Desenvolvedor Backend & Cloud** focado em **Python, PHP (Laravel), AWS** e **Infraestrutura como Código (Terraform)**. Desenvolvo microsserviços, ecossistemas SaaS multi-tenant e arquiteturas em nuvem escaláveis, contando com **projetos reais em produção**.
+Sou **Desenvolvedor Backend & Cloud** focado em **Python, PHP (Laravel), AWS** e **Infraestrutura como Código (Terraform)**. Desenvolvo microsserviços, ecossistemas SaaS multi-tenant e arquiteturas em nuvem escaláveis, contando com **projetos reais documentados e versionados**.
 
 - 🎓 Cursando **Engenharia de Software**
 - 🎯 **Objetivo:** Desenvolvedor Backend Jr. | Cloud Jr. | DevOps Jr.
@@ -19,21 +19,21 @@ Sou **Desenvolvedor Backend & Cloud** focado em **Python, PHP (Laravel), AWS** e
 
 ---
 
-## 🚀 Projetos em Produção na AWS
+## 🚀 Arquiteturas & Projetos Cloud (AWS)
 
-| Projeto | Stack | Links |
+| Projeto | Stack / Infraestrutura | Código / Documentação |
 | :--- | :--- | :--- |
-| **🌐 Portfólio Pessoal** | React · TypeScript · Framer Motion · S3 · CloudFront | [Ver ao vivo](https://www.flaviopaixao.dev) |
-| **💈 Suíte SaaS (BarberPro / StudioPro / TattooPro / FitPro)** | PHP 8.2 · Laravel · SQLite Multi-tenant · EC2 · Nginx · Z-API | [Ver ao vivo](https://studiopro-demo.barberpro.tech) |
-| **📦 Gerenciador de Estoque** | Django · RDS · EC2 · Terraform · CloudWatch | [Ver ao vivo](https://fpx.dev) |
-| **🏗️ Terraform IaC** | Terraform · EC2 · Security Group · Elastic IP | [Ver no GitHub](https://github.com/Flavio-Paixao) |
-| **⚡ API Serverless** | Lambda · API Gateway · DynamoDB · S3 | [Ver ao vivo](https://fpx.dev) |
-| **🚀 API de Tarefas** | EC2 · Django REST · Gunicorn · Swagger | [Ver ao vivo](https://fpx.dev) |
-| **🤖 AutoDeploy** | Docker · ECS · ECR · GitHub Actions · Terraform | 🔜 *Em breve* |
+| **🌐 Portfólio Pessoal** | React · TypeScript · S3 · CloudFront · Route 53 · Certificate Manager | [Ver Repositório](https://github.com/Flavio-Paixao/flaviopaixao-portfolio) |
+| **💈 Suíte SaaS (StudioPro / BarberPro / TattooPro)** | PHP 8.2 · Laravel · SQLite Multi-tenant · EC2 · Nginx · Z-API | [Ver Repositório](https://github.com/Flavio-Paixao/studiopro) |
+| **📦 Gerenciador de Estoque** | Django · RDS (PostgreSQL) · EC2 · Terraform · CloudWatch | [Ver Repositório](https://github.com/Flavio-Paixao) |
+| **🏗️ Infraestrutura como Código (IaC)** | Terraform · AWS EC2 · Security Groups · Elastic IP · VPC | [Ver Repositório](https://github.com/Flavio-Paixao) |
+| **⚡ API Serverless** | AWS Lambda · API Gateway · DynamoDB · S3 · Python | [Ver Repositório](https://github.com/Flavio-Paixao) |
+| **🚀 API REST de Tarefas** | Python · Django REST Framework · EC2 · Gunicorn · Swagger | [Ver Repositório](https://github.com/Flavio-Paixao) |
+| **🤖 AutoDeploy CI/CD** | Docker · AWS ECS · ECR · GitHub Actions · Terraform | 🔜 *Em desenvolvimento* |
 
 ---
 
-## 🛠️ Stacks & Tecnologias
+## 🛠️ Tecnologias & Ferramentas
 
 **Linguagens & Frameworks**
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -44,14 +44,14 @@ Sou **Desenvolvedor Backend & Cloud** focado em **Python, PHP (Laravel), AWS** e
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-**Cloud, Infraestrutura & DevOps**
+**Nuvem, Infraestrutura & DevOps**
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
-**Bancos de Dados & Ferramentas**
+**Bancos de Dados & Armazenamento**
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/-Amazon_DynamoDB-4053D6?style=flat-square&logo=amazonaws&logoColor=white)
@@ -61,4 +61,4 @@ Sou **Desenvolvedor Backend & Cloud** focado em **Python, PHP (Laravel), AWS** e
 ## 🌐 Conecte-se Comigo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/flaviopx)
-[![Portfólio](https://img.shields.io/badge/Portfólio-121212?style=for-the-badge&logo=firefox&logoColor=white)](https://www.flaviopaixao.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Flavio-Paixao)
