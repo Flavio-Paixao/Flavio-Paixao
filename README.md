@@ -5,7 +5,7 @@ Atualmente cursando Engenharia de Software e me preparando para a certificação
 
 🎯 **Objetivo:** Desenvolvedor Backend Jr. | Cloud Jr. | DevOps Jr.  
 🔗 **LinkedIn:** [linkedin.com/in/flaviopx](https://www.linkedin.com/in/flaviopx)  
-☁️ **Portfólio:** [fpx.dev](https://projeto-aws-681892816208-sa-east-1-an.s3.sa-east-1.amazonaws.com/index.html)
+☁️ **Portfólio:** [fpx.dev]([https://https://www.flaviopaixao.dev/)
 
 ---
 
