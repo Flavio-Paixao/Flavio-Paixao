@@ -13,8 +13,8 @@ Atualmente cursando Engenharia de Software e me preparando para a certificação
 
 | Projeto | Stack | Link |
 |---|---|---|
-| 🌐 **Portfólio Pessoal** | React · TypeScript · Framer Motion · S3 · CloudFront | [Ver ao vivo](https://projeto-aws-681892816208-sa-east-1-an.s3.sa-east-1.amazonaws.com/index.html) |
-| 📦 **Gerenciador de Estoque** | Django · RDS · EC2 · Terraform · CloudWatch | [Ver ao vivo](http://15.229.54.25:8000) |
+| 🌐 **Portfólio Pessoal** | React · TypeScript · Framer Motion · S3 · CloudFront | [Ver ao vivo](https://www.flaviopaixao.dev/) |
+| 📦 **Gerenciador de Estoque** | Django · RDS · EC2 · Terraform · CloudWatch | [Ver ao vivo](http://15.229.54.25:8000)
 | 🏗️ **Terraform IaC** | Terraform · EC2 · Security Group · Elastic IP | [Ver no GitHub](https://github.com/Flavio-Paixao/terraform-aws) |
 | ⚡ **API Serverless** | Lambda · API Gateway · DynamoDB · S3 | [Ver ao vivo](http://piadas-serveless-flavio.s3-website-sa-east-1.amazonaws.com/) |
 | 🚀 **API de Tarefas** | EC2 · Django REST · Gunicorn · Swagger | [Ver ao vivo](http://15.229.17.21:8000) |
