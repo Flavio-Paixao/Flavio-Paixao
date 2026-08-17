@@ -29,7 +29,7 @@ Sou **Desenvolvedor Backend & Cloud** focado em **Python, PHP (Laravel), AWS** e
 | **🏗️ Infraestrutura como Código (IaC)** | Terraform · AWS EC2 · Security Groups · Elastic IP · VPC | [Ver Repositório](https://github.com/Flavio-Paixao) |
 | **⚡ API Serverless** | AWS Lambda · API Gateway · DynamoDB · S3 · Python | [Ver Repositório](https://github.com/Flavio-Paixao) |
 | **🚀 API REST de Tarefas** | Python · Django REST Framework · EC2 · Gunicorn · Swagger | [Ver Repositório](https://github.com/Flavio-Paixao) |
-| **🤖 AutoDeploy CI/CD** | Docker · AWS ECS · ECR · GitHub Actions · Terraform | 🔜 *Em desenvolvimento* |
+| **🤖 AutoDeploy CI/CD** | Docker · AWS ECS · ECR · GitHub Actions · Terraform | [Ver Repositório](https://github.com/Flavio-Paixao) |
 
 ---
 
