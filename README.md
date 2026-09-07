@@ -26,6 +26,7 @@ Família de produtos SaaS multi-tenant para agendamento online, construídos do 
 | 🍽️ MenuPro | PHP 8 · Laravel | 📋 Planejado | — |
 | 🎫 GuichêPro | PHP 8 · Laravel | 📋 Planejado | — |
 | 📅 ProAgenda | PHP 8 · Laravel | 📋 Planejado | — |
+| 🔧 AtivoPro | PHP 8 · Laravel · SQLite · QR Code | ✅ Ao vivo | [Repositório](https://github.com/Flavio-Paixao/ativopro) |
  
 ---
  
