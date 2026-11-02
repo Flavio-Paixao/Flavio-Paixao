@@ -7,10 +7,12 @@
 Construo infraestrutura na AWS com Terraform e documento o porquê de cada decisão: o que usei, o que não usei e o que o `plan` não prova. Meu portfólio são 3 cases de arquitetura, cada um com módulos, CI, análise de custo e documentação.
 
 🎓 Cursando Engenharia de Software (Ampli/Anhanguera, conclusão em 2028)
+
 🎯 Objetivo: Cloud Engineer · DevOps Engineer · Python Developer (CLT remoto)
+
 📜 Em preparação: AWS Certified Cloud Practitioner, depois Solutions Architect Associate
 
----
+
 
 ## ☁️ Cases de Arquitetura AWS com Terraform
 
