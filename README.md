@@ -1,71 +1,60 @@
 # Olá, eu sou o Flávio Paixão
- 
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) ![Django](https://img.shields.io/badge/-Django-black?style=flat-square&logo=django) ![PHP](https://img.shields.io/badge/-PHP-black?style=flat-square&logo=php) ![Laravel](https://img.shields.io/badge/-Laravel-black?style=flat-square&logo=laravel) ![AWS](https://img.shields.io/badge/-AWS-black?style=flat-square&logo=amazonaws) ![Terraform](https://img.shields.io/badge/-Terraform-black?style=flat-square&logo=terraform) ![Pandas](https://img.shields.io/badge/-Pandas-black?style=flat-square&logo=pandas) ![Streamlit](https://img.shields.io/badge/-Streamlit-black?style=flat-square&logo=streamlit)
- 
+
+![Terraform](https://img.shields.io/badge/-Terraform-black?style=flat-square&logo=terraform) ![AWS](https://img.shields.io/badge/-AWS-black?style=flat-square&logo=amazonaws) ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-black?style=flat-square&logo=githubactions) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql) ![DynamoDB](https://img.shields.io/badge/-DynamoDB-black?style=flat-square&logo=amazondynamodb) ![Jira](https://img.shields.io/badge/-Jira-black?style=flat-square&logo=jira) ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+
 ## Sobre Mim
- 
-Sou Desenvolvedor Backend & Cloud focado em Python, PHP (Laravel), AWS, Infraestrutura como Código (Terraform) e Análise de Dados. Desenvolvo microsserviços, ecossistemas SaaS multi-tenant, arquiteturas em nuvem escaláveis e dashboards analíticos com dados públicos — tudo documentado e versionado.
- 
-🎓 Cursando Engenharia de Software (Ampli/Anhanguera — conclusão 2028)
-🎯 Objetivo: Cloud Engineer · DevOps Engineer · Python Developer (remoto internacional)
-📜 AWS Certified Cloud Practitioner | Em preparação: Solutions Architect Associate
- 
+
+Construo infraestrutura na AWS com Terraform e documento o porquê de cada decisão: o que usei, o que não usei e o que o `plan` não prova. Meu portfólio são 3 cases de arquitetura, cada um com módulos, CI, análise de custo e documentação.
+
+🎓 Cursando Engenharia de Software (Ampli/Anhanguera, conclusão em 2028)
+🎯 Objetivo: Cloud Engineer · DevOps Engineer · Python Developer (CLT remoto)
+📜 Em preparação: AWS Certified Cloud Practitioner, depois Solutions Architect Associate
+
 ---
- 
-## 🐘 Backend PHP & SaaS
- 
-Família de produtos SaaS multi-tenant para agendamento online, construídos do zero em Laravel, com integração automática via WhatsApp.
- 
-| Projeto | Stack | Status | Link |
-|---|---|---|---|
-| 💈 BarberPro | PHP 8 · Laravel · SQLite Multi-tenant · Nginx · Z-API | ✅ Ao vivo | [Demo](https://demo.barberpro.tech) |
-| 💇 StudioPro | PHP 8 · Laravel · SQLite Multi-tenant · Nginx · Z-API | ✅ Ao vivo | [Demo](https://studiopro-demo.barberpro.tech) |
-| 🎨 TattooPro | PHP 8 · Laravel · SQLite Multi-tenant · Nginx · Z-API | ✅ Ao vivo | [Demo](https://tattoopro-demo.barberpro.tech) |
-| 🏋️ FitPro | PHP 8 · Laravel | 🔧 Em desenvolvimento | — |
-| 🛒 MVPro | PHP 8 · Laravel · MySQL | 📋 Planejado | — |
-| 🍽️ MenuPro | PHP 8 · Laravel | 📋 Planejado | — |
-| 🎫 GuichêPro | PHP 8 · Laravel | 📋 Planejado | — |
-| 📅 ProAgenda | PHP 8 · Laravel | 📋 Planejado | — |
-| 🔧 AtivoPro | PHP 8 · Laravel · SQLite · QR Code | ✅ Ao vivo | [Repositório](https://github.com/Flavio-Paixao/ativopro) |
- 
+
+## ☁️ Cases de Arquitetura AWS com Terraform
+
+> **Projetos de estudo.** Validados com `terraform fmt`, `validate` e `plan`. Nenhum deles foi aplicado (`apply`) em uma conta AWS, então não afirmo números de disponibilidade, latência nem custo real.
+
+| Case | Padrão | Stack | Tamanho | Repositório |
+|---|---|---|---|---|
+| 🛡️ Seguros Horizonte | 3 camadas, seguro e resiliente | Terraform · VPC · ALB · EC2 Auto Scaling · Aurora PostgreSQL · KMS · IAM · Secrets Manager · S3 | 6 módulos · `plan` com 69 recursos | [Ver repositório](https://github.com/Flavio-Paixao/seguros-horizonte-aws) |
+| 🛍️ Vitrine Modas | Serverless e orientado a eventos | Terraform · Python · Lambda · API Gateway · DynamoDB · Cognito · EventBridge · SQS · SNS · CloudFront · S3 · KMS | 9 módulos · 5 funções Lambda | [Ver repositório](https://github.com/Flavio-Paixao/vitrine-modas-aws) |
+| 🏦 Banco Rio | Alta disponibilidade e DR em 2 regiões | Terraform · Aurora Global Database · KMS multi-region · S3 com replicação · ALB · ACM · WAF · Route 53 · CloudTrail · Config · GuardDuty · Security Hub · AWS Backup | 13 módulos · `plan` com 166 recursos | [Ver repositório](https://github.com/Flavio-Paixao/banco-rio-aws) |
+
+### O que cada case mostra
+
+**🛡️ Seguros Horizonte:** rede em 2 zonas de disponibilidade, Security Groups em cadeia (internet, ALB, aplicação, banco), chaves KMS próprias, IAM de privilégio mínimo e senha do banco gerenciada pelo Secrets Manager. Os alertas do checkov viraram correções documentadas.
+
+**🛍️ Vitrine Modas:** pedido e baixa de estoque na mesma transação do DynamoDB, preço sempre vindo do catálogo, Streams alimentando o EventBridge, login com Cognito e testes das funções com pytest e moto.
+
+**🏦 Banco Rio:** os mesmos módulos usados em duas regiões, failover de DNS por health check (e o que ele não faz), backup com Vault Lock e camadas de auditoria e detecção. RPO e RTO são metas de projeto, não resultados medidos, e não afirmo conformidade com BACEN, LGPD, PCI-DSS ou SOX.
+
+Em todos: CI no GitHub Actions (fmt, validate, tflint e checkov), tickets no Jira e documentação em `README`, `ARCHITECTURE`, `DECISIONS` e `COST-ANALYSIS`.
+
 ---
- 
-## ☁️ Cloud & Backend Python (AWS)
- 
-| Projeto | Stack / Infraestrutura | Link |
-|---|---|---|
-| 🌐 Portfólio Pessoal | React · TypeScript · S3 · CloudFront · Route 53 · ACM | [Ver Repositório](https://github.com/Flavio-Paixao/portfolio-typescript) |
-| 📦 Gerenciador de Estoque | Django · RDS (PostgreSQL) · EC2 · Terraform · CloudWatch | [Ver Repositório](https://github.com/Flavio-Paixao/gerenciador-de-estoque) |
-| 🏗️ Infraestrutura como Código | Terraform · EC2 · Security Groups · Elastic IP · VPC | [Ver Repositório](https://github.com/Flavio-Paixao/terraform-aws) |
-| ⚡ API Serverless | Lambda · API Gateway · DynamoDB · S3 · Python | [Ver Repositório](https://github.com/Flavio-Paixao/piadas-serverless) |
-| 🚀 API REST de Tarefas | Python · Django REST Framework · EC2 · Gunicorn · Swagger | [Ver Repositório](https://github.com/Flavio-Paixao/api-aws) |
-| 🤖 AutoDeploy CI/CD | Docker · ECS · ECR · GitHub Actions · Terraform | [Ver Repositório](https://github.com/Flavio-Paixao/autodeploy-aws) |
- 
+
+## 🛠️ Tecnologias & Ferramentas dos Cases
+
+**Infraestrutura como código:** Terraform (módulos, múltiplas regiões, plan e validate)
+
+**AWS, rede e borda:** VPC · ALB · CloudFront · Route 53 · ACM · WAF
+
+**AWS, computação e integração:** EC2 Auto Scaling · Lambda · API Gateway · EventBridge · SQS · SNS
+
+**AWS, dados:** Aurora PostgreSQL (incluindo Global Database) · DynamoDB · S3 · AWS Backup
+
+**AWS, segurança e auditoria:** IAM · KMS · Cognito · Secrets Manager · CloudTrail · AWS Config · GuardDuty · Security Hub
+
+**AWS, observabilidade e custo:** CloudWatch · X-Ray · AWS Budgets
+
+**CI/CD e qualidade:** GitHub Actions · Git · GitHub · Jira · tflint · checkov · pytest · moto
+
+**Linguagens:** Python · HCL
+
 ---
- 
-## 📊 Análise de Dados
- 
-| Projeto | Stack | Status | Link |
-|---|---|---|---|
-| ⛽ Painel de Combustíveis no Brasil | Python · Pandas · Plotly · Streamlit · ANP (114k registros, 2012–2026) | ✅ Ao vivo | [Dashboard](https://combustiveis-brasil-anp-gu8tg5fercq66pecnwfyp6.streamlit.app/) · [GitHub](https://github.com/Flavio-Paixao/combustiveis-brasil-anp) |
-| 🚦 Dashboard Mobilidade Urbana SP | Python · Streamlit · CET-SP | 📋 Planejado | — |
-| 🤖 ML: Previsão de Preço de Combustível | Scikit-learn · Random Forest · ANP | 📋 Planejado | — |
- 
----
- 
-## 🛠️ Tecnologias & Ferramentas
- 
-**Linguagens & Frameworks:** Python · Django · FastAPI · PHP · Laravel · JavaScript · React
- 
-**Nuvem, Infraestrutura & DevOps:** AWS · Terraform · Docker · Nginx · GitHub Actions
- 
-**Análise de Dados:** Pandas · Plotly · Streamlit · NumPy
- 
-**Bancos de Dados & Armazenamento:** PostgreSQL · MySQL · SQLite · DynamoDB
- 
----
- 
+
 ## 🌐 Conecte-se Comigo
- 
-[LinkedIn](https://linkedin.com/in/flaviopx) · [GitHub](https://github.com/Flavio-Paixao) · [Instagram](https://www.instagram.com/flaviopaixao.dev) · [Portfólio](https://flaviopaixao.dev)
+
+[LinkedIn](https://www.linkedin.com/in/fl%C3%A1vio-paix%C3%A3o-083bb3415) · [GitHub](https://github.com/Flavio-Paixao) · [Portfólio](https://flaviopaixao.dev)
  
