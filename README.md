@@ -1,21 +1,16 @@
 # Olá, eu sou o Flávio Paixão
 
-![Terraform](https://img.shields.io/badge/-Terraform-black?style=flat-square&logo=terraform) ![AWS](https://img.shields.io/badge/-AWS-black?style=flat-square&logo=amazonaws) ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-black?style=flat-square&logo=githubactions) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql) ![DynamoDB](https://img.shields.io/badge/-DynamoDB-black?style=flat-square&logo=amazondynamodb) ![Jira](https://img.shields.io/badge/-Jira-black?style=flat-square&logo=jira) ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-black?style=flat-square&logo=amazonaws) ![Terraform](https://img.shields.io/badge/-Terraform-black?style=flat-square&logo=terraform) ![AWS](https://img.shields.io/badge/-AWS-black?style=flat-square&logo=amazonaws) ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-black?style=flat-square&logo=githubactions) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql) ![DynamoDB](https://img.shields.io/badge/-DynamoDB-black?style=flat-square&logo=amazondynamodb) ![Jira](https://img.shields.io/badge/-Jira-black?style=flat-square&logo=jira) ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 
 ## Sobre Mim
 
 Construo infraestrutura na AWS com Terraform e documento o porquê de cada decisão: o que usei, o que não usei e o que o `plan` não prova. Meu portfólio são 3 cases de arquitetura, cada um com módulos, CI, análise de custo e documentação.
 
-
-
 🎓 Cursando Engenharia de Software (Ampli/Anhanguera, conclusão em 2028)
-
 🎯 Objetivo: Cloud Engineer · DevOps Engineer · Python Developer (CLT remoto)
+📜 **AWS Certified Cloud Practitioner** (CLF-C02, novembro de 2026) · Próximo passo: Solutions Architect Associate
 
-📜 Em preparação: AWS Certified Cloud Practitioner, depois Solutions Architect Associate
-
-
-
+---
 
 ## ☁️ Cases de Arquitetura AWS com Terraform
 
@@ -24,7 +19,7 @@ Construo infraestrutura na AWS com Terraform e documento o porquê de cada decis
 | Case | Padrão | Stack | Tamanho | Repositório |
 |---|---|---|---|---|
 | 🛡️ Seguros Horizonte | 3 camadas, seguro e resiliente | Terraform · VPC · ALB · EC2 Auto Scaling · Aurora PostgreSQL · KMS · IAM · Secrets Manager · S3 | 6 módulos · `plan` com 69 recursos | [Ver repositório](https://github.com/Flavio-Paixao/seguros-horizonte-aws) |
-| 🛍️ Vitrine Modas | Serverless e orientado a eventos | Terraform · Python · Lambda · API Gateway · DynamoDB · Cognito · EventBridge · SQS · SNS · CloudFront · S3 · KMS | 9 módulos · 5 funções Lambda | [Ver repositório](https://github.com/Flavio-Paixao/vitrine-modas-aws) |
+| 🛍️ Vitrine Modas | Serverless e orientado a eventos | Terraform · Python · Lambda · API Gateway · DynamoDB · Cognito · EventBridge · SQS · SNS · CloudFront · S3 · KMS | 9 módulos · `plan` com 108 recursos · 5 funções Lambda | [Ver repositório](https://github.com/Flavio-Paixao/vitrine-modas-aws) |
 | 🏦 Banco Rio | Alta disponibilidade e DR em 2 regiões | Terraform · Aurora Global Database · KMS multi-region · S3 com replicação · ALB · ACM · WAF · Route 53 · CloudTrail · Config · GuardDuty · Security Hub · AWS Backup | 13 módulos · `plan` com 166 recursos | [Ver repositório](https://github.com/Flavio-Paixao/banco-rio-aws) |
 
 ### O que cada case mostra
@@ -62,4 +57,3 @@ Em todos: CI no GitHub Actions (fmt, validate, tflint e checkov), tickets no Jir
 ## 🌐 Conecte-se Comigo
 
 [LinkedIn](https://www.linkedin.com/in/fl%C3%A1vio-paix%C3%A3o-083bb3415) · [GitHub](https://github.com/Flavio-Paixao) · [Portfólio](https://flaviopaixao.dev)
- 
