@@ -1,70 +1,102 @@
-Olá, eu sou o Flávio Paixão
+# 👨‍💻 Olá, eu sou Flávio Paixão!
 
-Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem Mostrar imagem
+### ☁️ Cloud Computing | DevOps | Backend Development
 
-Sobre Mim
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Explorando+o+universo+Cloud+%E2%98%81%EF%B8%8F;Construindo+solu%C3%A7%C3%B5es+com+Python+%F0%9F%90%8D;Aprendendo+e+evoluindo+em+DevOps+%F0%9F%9A%80;Transformando+conhecimento+em+projetos." alt="Typing SVG" />
+</p>
 
-Construo infraestrutura na AWS com Terraform e documento o porquê de cada decisão: o que usei, o que não usei e o que o plan não prova. Meu portfólio são 3 cases de arquitetura, cada um com módulos, CI, análise de custo e documentação, e o StatusHub, um serviço em Go que empacotei com Docker e operei em Kubernetes.
+---
 
-🎓 Cursando Engenharia de Software (Ampli/Anhanguera, conclusão em 2028) 🎯 Objetivo: Cloud Engineer · DevOps Engineer · Python Developer (CLT remoto) 
+## 🚀 Sobre mim
 
-📜 AWS Certified Cloud Practitioner (CLF-C02, novembro de 2026) · Próximo passo: Solutions Architect Associate
+Sou estudante de **Engenharia de Software**, entusiasta de tecnologia e apaixonado por infraestrutura, computação em nuvem e desenvolvimento de soluções.
 
-☁️ Cases de Arquitetura AWS com Terraform
+Atualmente, estou direcionando meus estudos para o ecossistema Cloud e DevOps, buscando unir desenvolvimento, automação e infraestrutura para construir soluções escaláveis e eficientes.
 
-Projetos de estudo. Validados com terraform fmt, validate e plan. Nenhum deles foi aplicado (apply) em uma conta AWS, então não afirmo números de disponibilidade, latência nem custo real.
+- ☁️ Certificado **AWS Certified Cloud Practitioner**
+- 🎯 Em preparação para **AWS Solutions Architect Associate (SAA-C03)**
+- 🐍 Desenvolvendo projetos com Python e frameworks Backend.
+- ⚙️ Explorando práticas de DevOps, automação e infraestrutura como código.
+- 📚 Sempre aprendendo e construindo novos projetos.
 
-Case	Padrão	Stack	Tamanho	Repositório
+---
 
-🛡️ Seguros Horizonte	3 camadas, seguro e resiliente	Terraform · VPC · ALB · EC2 Auto Scaling · Aurora PostgreSQL · KMS · IAM · Secrets Manager · S3	6 módulos · plan com 69 recursos	Ver repositório
+## 🛠️ Tecnologias e ferramentas
 
-🛍️ Vitrine Modas	Serverless e orientado a eventos	Terraform · Python · Lambda · API Gateway · DynamoDB · Cognito · EventBridge · SQS · SNS · CloudFront · S3 · KMS	9 módulos · 5 funções Lambda	Ver repositório
+### ☁️ Cloud & Infrastructure
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github" />
+</p>
 
-🏦 Banco Rio	Alta disponibilidade e DR em 2 regiões	Terraform · Aurora Global Database · KMS multi-region · S3 com replicação · ALB · ACM · WAF · Route 53 · CloudTrail · Config · GuardDuty · Security Hub · AWS Backup	13 módulos · plan com 166 recursos	Ver repositório
-O que cada case mostra
+### 💻 Backend & Development
+<p>
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,mongodb,mysql,html,css,js" />
+</p>
 
-🛡️ Seguros Horizonte: rede em 2 zonas de disponibilidade, Security Groups em cadeia (internet, ALB, aplicação, banco), chaves KMS próprias, IAM de privilégio mínimo e senha do banco gerenciada pelo Secrets Manager. Os alertas do checkov viraram correções documentadas.
+### ⚙️ DevOps & Automation
+<p>
+  <img src="https://skillicons.dev/icons?i=terraform,kubernetes,githubactions,bash" />
+</p>
 
-🛍️ Vitrine Modas: pedido e baixa de estoque na mesma transação do DynamoDB, preço sempre vindo do catálogo, Streams alimentando o EventBridge, login com Cognito e testes das funções com pytest e moto.
+---
 
-🏦 Banco Rio: os mesmos módulos usados em duas regiões, failover de DNS por health check (e o que ele não faz), backup com Vault Lock e camadas de auditoria e detecção. RPO e RTO são metas de projeto, não resultados medidos, e não afirmo conformidade com BACEN, LGPD, PCI-DSS ou SOX.
+## 🎓 Formação e certificações
 
-Em todos: CI no GitHub Actions (fmt, validate, tflint e checkov), tickets no Jira e documentação em README, ARCHITECTURE, DECISIONS e COST-ANALYSIS.
+| Formação | Status |
+|---|---|
+| Engenharia de Software — Ampli | 📚 Em andamento |
+| AWS Certified Cloud Practitioner | 🏆 Concluído |
+| AWS Solutions Architect Associate | 🎯 Em preparação |
+| Python Fundamentals — DIO | 📚 Concluído |
+| Backend Developer — DIO | 📚 Concluído |
 
-🐳 Go, Docker e Kubernetes
+---
 
-Projeto de estudo. Roda em Kubernetes local (cluster Kind), sem custo de nuvem. Os números abaixo são os que medi na minha máquina.
+## 📂 Projetos em destaque
 
-Projeto	O que faz	Stack	Destaques	Repositório
-📡 StatusHub	Verifica de tempos em tempos se uma lista de sites está no ar e mostra o resultado numa página HTML e numa API JSON	Go · Docker · Kubernetes (Kind) · kubectl · GitHub Actions · Jira	Imagem de 4,88 MB compactada · 2 réplicas · probes · rollback testado	Ver repositório
+Aqui você encontrará projetos desenvolvidos durante minha jornada de aprendizado, explorando desenvolvimento Backend, automação, cloud e infraestrutura.
 
-📡 StatusHub:
+**Áreas de interesse:**
 
-Go: uma goroutine por alvo com sync.WaitGroup, resultados protegidos por RWMutex, http.Client com timeout de 5 s e graceful shutdown com signal.NotifyContext.
-Docker: Dockerfile multi-stage, binário estático e imagem final distroless com usuário não-root, sem shell. O build caiu de 107 s para 6,7 s com o cache de camadas.
-Kubernetes: Deployment com 2 réplicas, Service ClusterIP, probes de liveness (/healthz) e readiness (/readyz), requests e limits de CPU e memória e a lista de alvos num ConfigMap.
-Operação: escalei réplicas, apaguei Pods para ver a autocura e simulei um deploy quebrado. O serviço continuou no ar e voltei com rollout undo.
-CI e documentação: GitHub Actions com gofmt, go vet, go test -race e docker build, mais ARCHITECTURE, DECISIONS e RUNBOOK.
-🛠️ Tecnologias & Ferramentas dos Projetos
+- ☁️ Arquiteturas e serviços AWS.
+- 🐍 Aplicações Backend com Python.
+- 🔌 APIs REST com Django e FastAPI.
+- 🐳 Containerização e orquestração.
+- ⚙️ Automação e práticas DevOps.
+- 🏗️ Infraestrutura como código.
 
-Infraestrutura como código: Terraform (módulos, múltiplas regiões, plan e validate)
+---
 
-AWS, rede e borda: VPC · ALB · CloudFront · Route 53 · ACM · WAF
+## 📊 GitHub Analytics
 
-AWS, computação e integração: EC2 Auto Scaling · Lambda · API Gateway · EventBridge · SQS · SNS
+<p align="center">
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Flavio-Paixao&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Flavio-Paixao&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
-AWS, dados: Aurora PostgreSQL (incluindo Global Database) · DynamoDB · S3 · AWS Backup
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Flavio-Paixao&theme=tokyonight&hide_border=true" />
+</p>
 
-AWS, segurança e auditoria: IAM · KMS · Cognito · Secrets Manager · CloudTrail · AWS Config · GuardDuty · Security Hub
+---
 
-AWS, observabilidade e custo: CloudWatch · X-Ray · AWS Budgets
+## 🌐 Vamos nos conectar?
 
-Containers e orquestração: Docker (multi-stage, distroless) · Kubernetes · Kind · kubectl
+Estou aberto a trocar experiências, colaborar em projetos e conhecer novas oportunidades na área de tecnologia.
 
-CI/CD e qualidade: GitHub Actions · Git · GitHub · Jira · tflint · checkov · pytest · moto · go test (com -race) · go vet
+<p align="center">
+  <a href="https://github.com/Flavio-Paixao">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-Linguagens: Python · Go · HCL
+---
 
-🌐 Conecte-se Comigo
+<p align="center">
+  <i>"A melhor maneira de aprender tecnologia é construindo, errando e evoluindo."</i>
+</p>
 
-LinkedIn · GitHub · Portfólio
+<p align="center">
+  ⭐ Obrigado por visitar meu perfil!
+</p>
